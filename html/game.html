@@ -1,53 +1,62 @@
 <html>
   <head>
     <title>Hangman</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/game.css">
   </head>
   <body>
-    <div id="stopwatch">00:00</div>
-    <div id="hangman">
-      <div id="head">O</div>
-      <div id="right-arm">-</div>
-      <div id="body">|</div>
-      <div id="left-arm">-</div>
-      <div id="right-leg">/</div>
-      <div id="left-leg">\</div>
-    </div>
-    <div id="secret">
-      <span>T</span><span>E</span><span>S</span><span>T</span>
-    </div>
-    <ol id="menu">
+    <ol id="menu">=
       <li>Change Character</li>
       <li>Re-match</li>
       <li>Help</li>
     </ol>
+    <div id="stopwatch">00:00</div>
+    <div id="hangman">
+      <div class="body-part" id="head">O</div>
+      <div class="body-part" id="right-arm">-</div>
+      <div class="body-part" id="body">|</div>
+      <div class="body-part" id="left-arm">-</div>
+      <div class="body-part" id="right-leg">/</div>
+      <div class="body-part" id="left-leg">\</div>
+    </div>
     <ol id="letters">
-      <li id="a">A</li>
-      <li id="b">B</li>
-      <li id="c">C</li>
-      <li id="d">D</li>
-      <li id="e">E</li>
-      <li id="f">F</li>
-      <li id="g">G</li>
-      <li id="h">H</li>
-      <li id="i">I</li>
-      <li id="j">J</li>
-      <li id="k">K</li>
-      <li id="l">L</li>
-      <li id="m">M</li>
-      <li id="n">N</li>
-      <li id="o">O</li>
-      <li id="p">P</li>
-      <li id="q">Q</li>
-      <li id="r">R</li>
-      <li id="s">S</li>
-      <li id="t">T</li>
-      <li id="u">U</li>
-      <li id="v">V</li>
-      <li id="w">W</li>
-      <li id="x">X</li>
-      <li id="y">Y</li>
-      <li id="z">Z</li>
+      <li id="a"><button>A</button></li>
+      <li id="b"><button>B</button></li>
+      <li id="c"><button>C</button></li>
+      <li id="d"><button>D</button></li>
+      <li id="e"><button>E</button></li>
+      <li id="f"><button>F</button></li>
+      <li id="g"><button>G</button></li>
+      <li id="h"><button>H</button></li>
+      <li id="i"><button>I</button></li>
+      <li id="j"><button>J</button></li>
+      <li id="k"><button>K</button></li>
+      <li id="l"><button>L</button></li>
+      <li id="m"><button>M</button></li>
+      <li id="n"><button>N</button></li>
+      <li id="o"><button>O</button></li>
+      <li id="p"><button>P</button></li>
+      <li id="q"><button>Q</button></li>
+      <li id="r"><button>R</button></li>
+      <li id="s"><button>S</button></li>
+      <li id="t"><button>T</button></li>
+      <li id="u"><button>U</button></li>
+      <li id="v"><button>V</button></li>
+      <li id="w"><button>W</button></li>
+      <li id="x"><button>X</button></li>
+      <li id="y"><button>Y</button></li>
+      <li id="z"><button>Z</button></li>
     </ol>
+    <div id="secret">
+      <span>T</span><span>E</span><span>S</span><span>T</span><span> </span>
+      <span>T</span><span>E</span><span>S</span><span>T</span><span> </span>
+      <span>T</span><span>E</span><span>S</span><span>T</span><span> </span>
+      <span>T</span><span>E</span><span>S</span><span>T</span><span> </span>
+      <span>T</span><span>E</span><span>S</span><span>T</span><span> </span>
+      <span>T</span><span>E</span><span>S</span><span>T</span><span> </span>
+      <span>T</span><span>E</span><span>S</span><span>T</span><span> </span>
+      <span>T</span><span>E</span><span>S</span><span>T</span>
+    </div>
     <div id="hints">
     </div>
   </body>

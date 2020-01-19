@@ -1,1 +1,16 @@
 
+body {
+  background-color: rgb(192,224,255);
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+#menu {
+  background-color: gray;
+  border-bottom: 1px solid black;
+}
+
+#menu li {
+    display: none;
+}
